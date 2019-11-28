@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instruções - Projetos no GitHub - Via MS-DOS</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GITHUB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-secondary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h1>TRABALHANDO COM O GITHUB ATRAVÉS DO PROMPT DE COMANDO</h1>
+                    <h2>Comandos e instruções passo-a-passo para utilização do Git e GitHub</h2>      
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="instalacao-git">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2>INSTALAÇÃO DO GIT</h2>
+
+                    <p class="lead">Para instalação do GIT, é necessário acessar o endereço <a href="http://git-scm.com" target="_blank">http://git-scm.com</a>, efetuar o download e executar o instalador.</p>
+
+                    <p><em>A instalação em si do git, é muito simples. Avançar, avançar e avançar.</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="criar-repositorio" class="primary-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2>CRIAR REPOSITÓRIO NO GITHUB</h2>
+
+                    <p class="lead">É necessário acessar o <a href="http://github.com" target="_blank">GitHub</a> e criar um repositório onde os arquivos ficarão salvos.</p>
+
+                    <p><em>Este passo pode ser feito antes mesmo de instalar o GIT.</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="configurar-git" class="light-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2>CONFIGURAR NOME E E-MAIL NO GIT</h2>
+
+                    <p class="lead">Nesta etapa é necessário configurar um nome de exibição e um e-mail para o GIT.</p>
+
+                    <p class="lead">Com o Git Instalado, você vai abrir o prompt de comando, <strong>navegar até a pasta do projeto</strong> e executar os seguintes comandos: </p>
+
+                    <p class="lead"><em>git config --global user.name "SEU NOME"</em></p>
+                    <p class="lead"><em>git config --global user.email "E-MAIL CONFIGURADO NO GITHUB"</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iniciar-verificar" class="secondary-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2>INICIAR E VERIFICAR O STATUS DO REPOSITÓRIO</h2>
+
+                    <p class="lead">Executar os comandos a seguir para iniciar o repositório na pasta do projeto e em seguida, verificar o status dos arquivos.</p>
+
+                    <p class="lead"><em>git init</em></p>
+                    <p class="lead"><em>git status</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="adicionar-arquivos" class="primary-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2>ADICIONAR OS ARQUIVOS NO REPOSITÓRIO "TEMPORÁRIO"</h2>
+
+                    <p class="lead">Executar o comando a seguir para adicionar os arquivos que deseja enviar ao repositório na nuvem.</p>
+
+                    <p class="lead"><em>git add .</em></p>
+
+                    <p><em>Pode ser utilizado o comando "git add nome_do_arquivo.ext" para adicionar arquivos individualmente.</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="commit" class="light-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2>EFETUAR O COMMIT DOS ARQUIVOS</h2>
+
+                    <p class="lead">Executar o comando a seguir para efetuar o commit no git.</p>
+
+                    <p class="lead"><em>git commit -m "COMENTÁRIO DO COMMIT"</em></p>   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="vincular-e-enviar" class="secondary-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2>VINCULAR O PROJETO COM O GITHUB E ENVIAR OS ARQUIVOS PARA O REPOSITÓRIO NA NUVEM</h2>
+
+                    <p class="lead">Primeiro, executar o comando abaixo para vincular o diretório ao repositório no GitHub.</p>
+
+                    <p class="lead"><em>git remote add origin <strong>LINK DO REPOSITÓTIO</strong></em></p>
+                    <p><em>Exemplo: git remote add origin https://github.com/wesleypsc/ExemploHTML</em></p>
+                    
+                    <p class="lead">Para isso é necessário acessar o seu usuário do GitHub e verificar o link do repositório, <em>conforme imagem abaixo.</em></p>
+
+                    <img class="img-fluid" src="img/github.png" alt="Exemplo URL do GitHub">
+
+                    <hr>
+
+                    <p class="lead">Em seguida, executar o comando de <em>push</em> para enviar os arquivos ao repositório vinculado anteriormente.</p>
+
+                    <p class="lead"><em>git push -u origin master</em></p>
+
+                    <p><em>Nestes passos pode ser solicitado o usuário e senha do GITHUB!</em></p>
+
+                    <div class="alert alert-danger" role="alert">
+                        <p>Caso necessite substituir os arquivos já existentes do repositório, utilize o parâmetro <em>--force</em></p>
+
+                        <p><em>Exemplo: git push <strong>--force</strong> -u origin master</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 text-center">
+                    <h2></h2>
+
+                    <p class="lead"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
